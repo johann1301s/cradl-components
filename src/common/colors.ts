@@ -1,0 +1,212 @@
+
+
+const gray = {
+  0:  '#FFFFFF' as const,
+  10: '#FCFEFF' as const,
+  20: '#F9FBFC' as const,
+  30: '#F7F9FA' as const,
+  40: '#F5F7F8' as const,
+  50: '#F2F4F5' as const,
+  60: '#EFF1F2' as const,
+  70: '#EBEDEE' as const,
+  80: '#E5E7E8' as const,
+  90: '#E0E2E3' as const,
+  100: '#DCDDDE' as const,
+  110: '#D2D3D4' as const,
+  120: '#BABBBC' as const,
+  130: '#A3A4A6' as const,
+  140: '#8C8D90' as const,
+  150: '#75767A' as const,
+  160: '#5E5F64' as const,
+  170: '#47494D' as const,
+  180: '#303237' as const,
+  190: '#191B21' as const
+}
+
+const green = {
+  10: '#FAFBFA' as const,
+  20: '#F6F6F5' as const,
+  30: '#F1F2F0' as const,
+  40: '#EDEDEB' as const,
+  50: '#E8E9E7' as const,
+  60: '#E3E5E2' as const,
+  70: '#DFE0DD ' as const,
+  80: '#DADCD8' as const,
+  90: '#D6D7D3' as const,
+  100: '#D1D3CE' as const,
+  110: '#C6C7C4' as const,
+  120: '#B8B9B6' as const,
+  130: '#A2A39E' as const,
+  140: '#8F918B' as const,
+  150: '#7D7E77' as const,
+  160: '#6A6C64' as const,
+  170: '#585950' as const,
+  180: '#45473D' as const,
+  190: '#3E4037' as const
+}
+
+const blue = {
+  10: '#F3F5F6' as const,
+  20: '#EEF0F2' as const,
+  30: '#EAEDEF' as const,
+  40: '#E6EAEC' as const,
+  50: '#E2E6E9' as const,
+  60: '#DDE2E5' as const,
+  70: '#D8DDE0' as const,
+  80: '#D0D6DA' as const,
+  90: '#C7CED3' as const,
+  100: '#BDC6CB' as const,
+  110: '#B4BDC4' as const,
+  120: '#AAB5BC' as const,
+  130: '#A1ADB5' as const,
+  140: '#919CA3' as const,
+  150: '#818A91' as const,
+  160: '#71797F' as const,
+  170: '#61686D' as const,
+  180: '#51575B' as const,
+  190: '#404548' as const
+}
+
+const beige = {
+  10: '#FAF8F8' as const,
+  20: '#F6F4F4' as const,
+  30: '#F2F0EF' as const,
+  40: '#F1EDED' as const,
+  50: '#EDE9E8' as const,
+  60: '#EBE7E4' as const,
+  70: '#E9E4E0' as const,
+  80: '#E6E0DC' as const,
+  90: '#E3DDD8' as const,
+  100: '#D8D3CD' as const,
+  110: '#CFC8C0' as const,
+  120: '#C5BCB3' as const,
+  130: '#BBB1A7' as const,
+  140: '#B1A69A' as const,
+  150: '#A89B8E' as const,
+  160: '#9E9081' as const,
+  170: '#8E8274' as const,
+  180: '#7E7367' as const,
+  190: '#6F655A' as const
+}
+
+const sky = {
+  10: '#F7FBFE' as const,
+  20: '#EEF7FE' as const,
+  30: '#E6F3FD' as const,
+  40: '#DDEFFD' as const,
+  50: '#D5ECFC' as const,
+  60: '#CDE8FB' as const,
+  70: '#C4E4FB' as const,
+  80: '#BCE0FA' as const,
+  90: '#B3DCFA' as const,
+  100: '#ABD8F9' as const,
+  110: '#9DCBED' as const,
+  120: '#8CBFE5' as const,
+  130: '#7BB2DB' as const,
+  140: '#6FA0C5' as const,
+  150: '#628EAF' as const,
+  160: '#567D99' as const,
+  170: '#4A6B83' as const,
+  180: '#3E596E' as const,
+  190: '#314758' as const
+}
+
+const yellow = {
+  10: '#FDF8ED' as const,
+  20: '#FCF2DC' as const,
+  30: '#FAEBCA' as const,
+  40: '#F9E5B8' as const,
+  50: '#F7DEA7' as const,
+  60: '#F5D795' as const,
+  70: '#F4D183' as const,
+  80: '#F2CA71' as const,
+  90: '#F1C460' as const,
+  100: '#EFBD4E' as const,
+  110: '#D7AA46' as const,
+  120: '#BF973E' as const,
+  130: '#A78437' as const,
+  140: '#8F712F' as const,
+  150: '#785F27' as const,
+  160: '#604C1F' as const,
+  170: '#483917' as const,
+  180: '#302610' as const,
+  190: '#181308' as const
+}
+
+const koral = {
+  10: '#FDF4F4' as const,
+  20: '#FCE8E8' as const,
+  30: '#FADDDD' as const,
+  40: '#F8D1D1' as const,
+  50: '#F7C6C6' as const,
+  60: '#F5BABA' as const,
+  70: '#F3AFAF' as const,
+  80: '#F1A3A3' as const,
+  90: '#F09898' as const,
+  100: '#EE8C8C' as const,
+  110: '#D67E7E' as const,
+  120: '#BE7070' as const,
+  130: '#A76262' as const,
+  140: '#8F5454' as const,
+  150: '#774646' as const,
+  160: '#5F3838' as const,
+  170: '#472A2A' as const,
+  180: '#301C1C' as const,
+  190: '#180E0E' as const
+}
+
+const red = {
+  10: '#FDE9E9' as const,
+  20: '#FCD3D3' as const,
+  30: '#FABDBD' as const,
+  40: '#F8A7A7' as const,
+  50: '#F79292' as const,
+  60: '#F57C7C' as const,
+  70: '#F36666' as const,
+  80: '#F15050' as const,
+  90: '#F03A3A' as const,
+  100: '#EE2424' as const,
+  110: '#D62020' as const,
+  120: '#BE1D1D' as const,
+  130: '#A71919' as const,
+  140: '#8F1616' as const,
+  150: '#771212' as const,
+  160: '#5F0E0E' as const,
+  170: '#470B0B' as const,
+  180: '#300707' as const,
+  190: '#180404' as const
+}
+
+const water = {
+  10: '#F3F8F8' as const,
+  20: '#E7F2F2' as const,
+  30: '#DBEBEB' as const,
+  40: '#CFE5E4' as const,
+  50: '#C4DEDE' as const,
+  60: '#B8D7D7' as const,
+  70: '#ACD1D0' as const,
+  80: '#A0CAC9' as const,
+  90: '#94C4C3' as const,
+  100: '#88BDBC' as const,
+  110: '#7AAAA9' as const,
+  120: '#6D9796' as const,
+  130: '#5F8484' as const,
+  140: '#527171' as const,
+  150: '#445F5E' as const,
+  160: '#364C4B' as const,
+  170: '#293938' as const,
+  180: '#1B2626' as const,
+  190: '#0E1313' as const
+}
+
+export const colors = {
+  gray,
+  green,
+  blue,
+  beige,
+  sky,
+  yellow,
+  koral,
+  red,
+  water
+}

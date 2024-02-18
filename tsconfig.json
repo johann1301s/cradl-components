@@ -1,0 +1,15 @@
+{
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES2022",
+    "module": "ES2022",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "isolatedModules": false
+  }
+}

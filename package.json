@@ -1,0 +1,56 @@
+{
+  "name": "@johann1301s/cradl-components",
+  "version": "1.0.0",
+  "description": "React components used by Cradle AI",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "lint": "eslint --config .eslintrc.json --ext ts,tsx .",
+    "lint-fix": "eslint --config .eslintrc.json --ext ts,tsx --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johann1301s/cradl-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johann1301s/cradl-components/issues"
+  },
+  "homepage": "https://github.com/johann1301s/cradl-components#readme",
+  "publishConfig": {
+    "@johann1301s:registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "/dist",
+    "/src"
+  ],
+  "dependencies": {
+    "colors": "1.4.0",
+    "open": "9.1.0",
+    "qrcode.react": "3.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.16.0",
+    "styled-components": "5.3.3"
+  },
+  "devDependencies": {
+    "@types/styled-components": "5.1.28",
+    "@types/colors": "1.2.1",
+    "@types/express": "4.17.18",
+    "@types/node": "20.6.3",
+    "@types/react": "18.2.23",
+    "@types/react-dom": "18.2.8",
+    "chokidar": "3.5.3",
+    "esbuild": "0.19.3",
+    "express": "4.18.2",
+    "tsx": "4.7.0",
+    "typescript": "5.2.2",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "8.49.0",
+    "eslint-plugin-react": "^7.32.2"
+  }
+}
