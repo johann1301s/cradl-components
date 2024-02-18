@@ -1,12 +1,12 @@
 import React from 'react'
 import {PrimaryButton} from './primaryButton'
 import {ComponentDemo} from '../../common/componentdemo/componentDemo'
-import {lorem} from '../../common/lorem'
 
 export const PrimaryButtonDemo = () => {
 
   return (
     <ComponentDemo
+      dark
       title={'PrimaryButton'}
       component={PrimaryButton}
       componentPropList={{
@@ -17,7 +17,7 @@ export const PrimaryButtonDemo = () => {
           onClick: null
       }}
       componentProps={{
-        label: lorem[2],
+        label: 'Sign in',
       }}/>
   )
 }

@@ -7,6 +7,7 @@ export const PrimaryTriggerDemo = () => {
 
   return (
     <ComponentDemo
+      dark
       title={'PrimaryTrigger'}
       component={PrimaryTrigger}
       componentPropList={{
