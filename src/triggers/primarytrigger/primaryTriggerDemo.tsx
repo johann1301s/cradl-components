@@ -1,7 +1,6 @@
 import React from 'react'
 import {PrimaryTrigger} from './primaryTrigger'
 import {ComponentDemo} from '../../common/componentdemo/componentDemo'
-import {lorem} from '../../common/lorem'
 
 export const PrimaryTriggerDemo = () => {
 
@@ -17,7 +16,7 @@ export const PrimaryTriggerDemo = () => {
         className: null,
       }}
       componentProps={{
-        label: lorem[2]
+        label: 'Sign in'
       }}/>
   )
 }
